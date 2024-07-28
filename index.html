@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thulane Sigasa | Space Invaders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Invading Space</h1>
+        <div class="canvas-container">
+            <canvas id="gameCanvas" width="800" height="600"></canvas>
+            <div id="overlay" class="overlay">
+                <button id="startButton" class="game-button">Start Game</button>
+                <button id="pauseButton" class="game-button" style="display: none;">Pause</button>
+                <button id="newGameButton" class="game-button" style="display: none;">New Game</button>
+            </div>
+        </div>
+        <div class="game-info">
+            <div id="score">Score: 0</div>
+            <div id="level">Level: 1</div>
+            <div id="lives">Lives: 3</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
